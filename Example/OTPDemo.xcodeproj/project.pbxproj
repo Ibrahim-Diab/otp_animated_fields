@@ -1,0 +1,51 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+		A1000000000000000000000A /* OTPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1000000000000000000000B /* OTPDemo */ = {isa = PBXFileSystemSynchronizedRootGroup; path = OTPDemo; sourceTree = "<group>"; };
+		A1000000000000000000000C /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A1000000000000000000001C /* OTPAnimatedField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OTPAnimatedField.swift; path = ../OTPAnimatedField.swift; sourceTree = SOURCE_ROOT; };
+		A1000000000000000000001D /* OTPAnimatedField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000000000000000000001C; };
+		A1000000000000000000000D = {isa = PBXGroup; children = (A1000000000000000000001C, A1000000000000000000000B, A1000000000000000000000E); sourceTree = "<group>"; };
+		A1000000000000000000000E /* Products */ = {isa = PBXGroup; children = (A1000000000000000000000A); name = Products; sourceTree = "<group>"; };
+		A1000000000000000000000F /* OTPDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000014;
+			buildPhases = (A10000000000000000000010, A1000000000000000000000C, A10000000000000000000011);
+			buildRules = ();
+			dependencies = ();
+			fileSystemSynchronizedGroups = (A1000000000000000000000B);
+			name = OTPDemo;
+			productName = OTPDemo;
+			productReference = A1000000000000000000000A;
+			productType = "com.apple.product-type.application";
+		};
+		A10000000000000000000010 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000001D); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000011 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; };
+			buildConfigurationList = A10000000000000000000013;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = A1000000000000000000000D;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = A1000000000000000000000E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (A1000000000000000000000F);
+		};
+		A10000000000000000000013 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000015, A10000000000000000000016); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A10000000000000000000014 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000017, A10000000000000000000018); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A10000000000000000000015 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 6.0; }; name = Debug; };
+		A10000000000000000000016 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 6.0; SWIFT_COMPILATION_MODE = wholemodule; }; name = Release; };
+		A10000000000000000000017 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_CFBundleDisplayName = "OTP Demo"; PRODUCT_BUNDLE_IDENTIFIER = com.example.otpanimatedfield.demo; PRODUCT_NAME = "$(TARGET_NAME)"; TARGETED_DEVICE_FAMILY = 1; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; }; name = Debug; };
+		A10000000000000000000018 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_CFBundleDisplayName = "OTP Demo"; PRODUCT_BUNDLE_IDENTIFIER = com.example.otpanimatedfield.demo; PRODUCT_NAME = "$(TARGET_NAME)"; TARGETED_DEVICE_FAMILY = 1; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; }; name = Release; };
+	};
+	rootObject = A10000000000000000000012;
+}
